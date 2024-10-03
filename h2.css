@@ -1,0 +1,77 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(144, 219, 241);
+}
+    
+.container-navbar{
+    background-color: white;
+    width: 100%;
+    height: 10%;
+}
+.ul-navbar {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li-navbar{
+    border: 3px none gold;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ 
+ 
+
+ list-style-type:none;
+ padding: 20px;
+ margin: 5px;
+ color: violet;
+ font-size: 40px;
+   }
+   
+   .li-navbar:hover {
+       background-color:rgb(185, 133, 233);
+       transition: .5s ease-in-out;
+       transition-delay: .3s;
+       border-radius: 8px;
+   }
+   
+   .container-content{
+   background-color:rgb(212, 208, 216) ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60vh
+   }
+   .a-navbar{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.p-navbar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.p-navbar:hover{
+    background-color:whitesmoke;
+       transition: .5s ease-in-out;
+       transition-delay: .3s;
+       border-radius: 2px;
+}
+.liv-navbar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.liv-navbar:hover{
+    background-color:whitesmoke;
+       transition: .5s ease-in-out;
+       transition-delay: .3s;
+       border-radius: 8px;
+
+}
